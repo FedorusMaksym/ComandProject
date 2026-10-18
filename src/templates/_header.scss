@@ -1,0 +1,45 @@
+@use "../scss/utils/variables" as *;
+
+.header {
+    padding-top: 40px;
+ 
+    &__container {
+        display: flex;
+        flex-direction: row;
+        gap: 126px;
+        align-items: center;
+        width: 1364px;
+        justify-content: center;
+    }
+
+  &__logo {
+    font-family: $logo-font;
+    text-decoration: none;
+    background: $logo-color;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 32px;
+    -webkit-text-stroke: 1px #000;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: row;
+    gap: 33px;
+  }
+
+  &__button {
+    padding: 10px 22px;
+    background-color: $subtext-color;
+    color: $button-text-color;
+    border-radius: 136px;
+    margin-left: 70px;
+    font-weight: 600;
+  }
+
+  &__link {
+    font-weight: 600;
+    color: $header-link-color;
+  }
+}
