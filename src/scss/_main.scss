@@ -1,0 +1,25 @@
+// BASE
+@use "./base/reset";
+@use "./utils/variable";
+@use "./base/base";
+
+// TEMPLATES 
+@use "./templates/header";
+@use "./templates/footer";
+@use "./templates/newsletter";
+@use "./templates/paccheti";
+
+// HOME
+@use "./componenets/home/hero";
+@use "./componenets/home/map";
+@use "./componenets/home/opinioni";
+@use "./componenets/home/perche";
+@use "./componenets/home/vacanze";
+
+// LOCATION
+@use "./componenets/location/activity";
+@use "./componenets/location/dascover";
+
+// SEARCH
+@use "./componenets/search/destination";
+@use "./componenets/search/sidebar";
